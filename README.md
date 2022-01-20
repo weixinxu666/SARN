@@ -4,6 +4,14 @@ Official pytorch codes and models for paper:\
 2021 IEEE International Conference on Robotics and Automation Engineering (ICRAE 2021)
 
 
+# Related Works
+There are other two papers of ours about low-light image enhancement:
+
+[Da-drn: Degradation-aware deep retinex network for low-light image enhancement](https://arxiv.org/abs/2110.01809)
+
+[Tsn-ca: A two-stage network with channel attention for low-light image enhancement](https://arxiv.org/abs/2110.02477)
+
+
 # Pretrained Model & Datasets
 The pretrained models can be found in folder **/checkpoint**. \
 We trained the models on the [LOL dataset](https://pan.baidu.com/s/1Div2cRLHWTUiYT6-vzkOrg) (password: gjhm). These two models in the folder **/checkpoint** were trained on the LOL real world dataset. Your can trained the models on the LOL synthetic dataset on your own.\
@@ -49,13 +57,6 @@ numpy==1.19.5
 opencv-python-headless==4.5.5.92
 tqdm==4.62.2
 ````
-
-# Reference
-There are other two papers of ours about low-light image enhancement:
-
-[Da-drn: Degradation-aware deep retinex network for low-light image enhancement](https://arxiv.org/abs/2110.01809)
-
-[Tsn-ca: A two-stage network with channel attention for low-light image enhancement](https://arxiv.org/abs/2110.02477)
 
 
 # Citation
