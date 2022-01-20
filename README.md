@@ -50,6 +50,13 @@ opencv-python-headless==4.5.5.92
 tqdm==4.62.2
 ````
 
+# Reference
+There are other two papers of ours about low-light image enhancement:
+
+[Da-drn: Degradation-aware deep retinex network for low-light image enhancement](https://arxiv.org/abs/2110.01809)
+
+[Tsn-ca: A two-stage network with channel attention for low-light image enhancement](https://arxiv.org/abs/2110.02477)
+
 
 # Citation
 If you use this code for your research, please cite the following [paper](https://ieeexplore.ieee.org/abstract/document/9657795).
