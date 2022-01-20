@@ -7,9 +7,9 @@ Official pytorch codes and models for paper:\
 # Related Works
 There are other two papers of ours about low-light image enhancement:
 
-[Da-drn: Degradation-aware deep retinex network for low-light image enhancement](https://arxiv.org/abs/2110.01809)
+[DA-DRN: Degradation-aware deep retinex network for low-light image enhancement](https://arxiv.org/abs/2110.01809)
 
-[Tsn-ca: A two-stage network with channel attention for low-light image enhancement](https://arxiv.org/abs/2110.02477)
+[TSN-CA: A two-stage network with channel attention for low-light image enhancement](https://arxiv.org/abs/2110.02477)
 
 
 # Pretrained Model & Datasets
