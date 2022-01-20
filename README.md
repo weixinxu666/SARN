@@ -5,8 +5,8 @@ Official pytorch codes and models for paper:\
 
 
 # Pretrained Model & Datasets
-The pretrained models can be found in folder /checkpoint. \
-We trained the models on the [LOL dataset](https://pan.baidu.com/s/1Div2cRLHWTUiYT6-vzkOrg) (password: gjhm). These two models in the folder /checkpoint were trained on the LOL real world dataset. Your can trained the models on the LOL synthetic dataset on your own.\
+The pretrained models can be found in folder **/checkpoint**. \
+We trained the models on the [LOL dataset](https://pan.baidu.com/s/1Div2cRLHWTUiYT6-vzkOrg) (password: gjhm). These two models in the folder **/checkpoint** were trained on the LOL real world dataset. Your can trained the models on the LOL synthetic dataset on your own.\
 We tested our model on four datasets without Ground-Truth: [DICM, LIME, MEF, NPE, VV](https://pan.baidu.com/s/1utYsLd35dfQ3HZoR-Q5XBQ) (Password: p8vy).
 
 Put the downloaded datasets in the folder **/data**.
@@ -40,16 +40,27 @@ You can test the pre-trained models on the lol eval datasets or your own data by
 There are some bugs when you eval the model with BAM module (run **train_sarn_se_bam.py** and **eval_sarn_se_bam.py**). Due to a bug, we can only eval the images with Batchsize=1. And an image in your data can not be outputed.
 
 
+# Requirements
+
+````
+pytorch==1.7+cuda10.1
+torchvision==0.6.0
+numpy==1.19.5
+opencv-python-headless==4.5.5.92
+tqdm==4.62.2
+````
+
+
 # Citation
 If you use this code for your research, please cite the following [paper](https://ieeexplore.ieee.org/abstract/document/9657795).
 
 ````
-@inproceedings{wei2021sarn,\
-  title={SARN: A Lightweight Stacked Attention Residual Network for Low-LightImage Enhancement},\
-  author={Wei, Xinxu and Zhang, Xianshi and Li, Yongjie},\
-  booktitle={2021 6th International Conference on Robotics and Automation Engineering (ICRAE)},\
-  pages={275--279},\
-  year={2021},\
-  organization={IEEE}\
+@inproceedings{wei2021sarn,
+  title={SARN: A Lightweight Stacked Attention Residual Network for Low-LightImage Enhancement},
+  author={Wei, Xinxu and Zhang, Xianshi and Li, Yongjie},
+  booktitle={2021 6th International Conference on Robotics and Automation Engineering (ICRAE)},
+  pages={275--279},
+  year={2021},
+  organization={IEEE}
 }
 ````
