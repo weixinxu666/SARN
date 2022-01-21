@@ -1,7 +1,7 @@
 # SARN-Pytorch
-Official pytorch codes and models for paper:\
+Official pytorch codes and models for paper:
 
-[SARN: A Lightweight Stacked Attention Residual Network for Low-Light Image Enhancement](https://ieeexplore.ieee.org/abstract/document/9657795) \
+[SARN: A Lightweight Stacked Attention Residual Network for Low-Light Image Enhancement](https://ieeexplore.ieee.org/abstract/document/9657795) 
 
 2021 IEEE International Conference on Robotics and Automation Engineering (ICRAE 2021)
 
